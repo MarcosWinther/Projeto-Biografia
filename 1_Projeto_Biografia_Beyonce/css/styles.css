@@ -9,18 +9,65 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 40px;
+    margin: 40px;
     background-color: #FFF;
 }
 
 /* cabecalho */
+
 .titulo-principal {
     text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subtitulo-principal {
+    font-style: italic;
 }
 
 /* Imagens da página */
+
 .imagem-destaque {
     text-align: center;
 }
+
 .imagem-destaque img {
     width: 70%;
+    border: 2px solid #b8860b;
+}
+
+/* Biografia */
+
+
+/* Citação */
+
+.citacao {
+    background-color: #4779f4;
+    padding: 15px;
+    color: #FFF;
+}
+
+.citacao blockquote {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+.citacao p{
+    font-style: italic;
+    text-align: center;
+}
+
+/* Informações */
+
+.informacoes-container li {
+    list-style: square;
+}
+
+/* Rodapé */
+
+.rodape {
+    font-weight: bold;
+    text-align: center;
 }
